@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-    font-size: 56px;
+    font-size: 96px;
 }
 
 .info {
@@ -25,27 +25,27 @@ h1 {
     outline: none;
     -webkit-transition: .2s;
     transition: opacity .2s;
-  }
+}
   
-  .slider:hover {
+.slider:hover {
     opacity: 1; 
-  }
+}
   
-  .slider::-webkit-slider-thumb {
+.slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
     width: 27px;
     height: 27px;
     background: black;
     cursor: pointer;
-  }
+}
   
-  .slider::-moz-range-thumb {
+.slider::-moz-range-thumb {
     width: 25px;
     height: 25px;
     background: black;
     cursor: pointer;
-  }
+}
 
 .grid-container {
     border-left: 3px;
@@ -61,3 +61,6 @@ h1 {
     background-color: white;
 }
 
+:root {
+    --value: 16;
+}
