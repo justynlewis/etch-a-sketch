@@ -1,2 +1,5 @@
 # etch-a-sketch
-simple etch-a-sketch website with JS
+A simple drawing tool made with JavaScript
+
+Live Version: https://justynlewis.github.io/etch-a-sketch/
+
